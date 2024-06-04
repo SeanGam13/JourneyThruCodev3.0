@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# Journey Thru Code React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Journey Thru Code React** is a project that transforms the static HTML, CSS, and JavaScript web page of "Journey Thru Code" into a dynamic and interactive React frontend website. This README provides an overview of the project, from creation to deployment on GitHub Pages.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Journey Thru Code v3.0](#journey-thru-code-v3.0)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Setup](#setup)
+    - [Cloning the Repository](#cloning-the-repository)
+    - [Running the Project Locally](#running-the-project-locally)
+  - [Deployment on GitHub Pages](#deployment-on-github-pages)
+  - [Author](#author)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Journey Thru Code v3.0t** is a React frontend website that replicates the features and functionalities of the original "Journey Thru Code" static web page. It offers a responsive and interactive user interface, including a sticky header, tab navigation, platform navigation, and a responsive menu.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Sticky Header**: The header remains fixed at the top of the page when scrolling.
+- **Tabs Navigation**: Users can toggle between different tab contents.
+- **Platform Navigation**: Navigate between different music platforms (players).
+- **Responsive Menu**: A responsive navigation menu that adapts to different screen sizes.
+- **Form Submission**: Users can submit contact form data, which is then processed and stored.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+The Journey Thru Code React project utilizes the following technologies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: A JavaScript library for building user interfaces.
+- **HTML/CSS**: Used for structuring and styling the components.
+- **JavaScript**: Utilized for implementing interactive functionalities.
+- **GitHub Pages**: Used for hosting the deployed React application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Cloning the Repository
 
-### `npm run eject`
+To get started with the Journey Thru Code React project, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the repository**:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/SeanGam13/JourneyThruCodev3.0.git
+   cd JourneyThruCodev3.0
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Running the Project Locally
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run the project locally on your machine, follow these steps:
 
-## Learn More
+1. **Install dependencies**:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Start the development server**:
 
-### Code Splitting
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. **Open your browser**:
 
-### Analyzing the Bundle Size
+   The React application should open automatically in your default web browser at `http://localhost:3000/`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Deployment on GitHub Pages
 
-### Making a Progressive Web App
+To deploy the Journey Thru Code React project on GitHub Pages, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. **Build the project**:
 
-### Advanced Configuration
+   ```bash
+   npm run build
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. **Create a new GitHub repository**:
 
-### Deployment
+   Create a new repository on GitHub to host the built React application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. **Deploy to GitHub Pages**:
 
-### `npm run build` fails to minify
+   ```bash
+   npm run deploy
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. **Configure GitHub Pages**:
+
+   Set the deployment branch to `gh-pages` in your GitHub repository settings.
+
+5. **Access the deployed site**:
+
+   Once deployed, your React application will be accessible at `https://seangam13.github.io/JourneyThruCodev3.0`.
+
+## Author
+
+**Sean Gambanou**
