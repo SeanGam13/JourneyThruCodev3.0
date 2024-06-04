@@ -9,7 +9,7 @@ nav .fa-chess-king {
 
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(/public/images/phone-background.jpg);
+        background-image: url(./../images/phone-background.jpg);
         background-size: cover;
         background-position: center;
         position: relative;

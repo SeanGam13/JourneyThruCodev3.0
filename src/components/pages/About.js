@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './About.css';
+import userImage from '../../images/user.jpg';
 
 const About = () => {
     const [activeTab, setActiveTab] = useState(null);
@@ -13,7 +14,7 @@ const About = () => {
             <div className="container">
                 <div className="row">
                     <div className="about-col-1">
-                        <img src="images/user.jpg" alt="User" />
+                        <img src={userImage} alt="User" />
                     </div>
                     <div className="about-col-2">
                         <h1 className="sub-title">About Me</h1>
@@ -26,7 +27,7 @@ const About = () => {
                             </div>
                             <div className={`tab-contents ${activeTab === 'education' ? 'active-tab' : ''}`} id="education">
                                 <ul>
-                                    <li><span>Primany</span><br />Sacred Heart Primary (2008-2010), Laerskool WH Coetzer Primary (2010-2014)</li>
+                                    <li><span>Primary</span><br />Sacred Heart Primary (2008-2010), Laerskool WH Coetzer Primary (2010-2014)</li>
                                     <li><span>Secondary</span><br />The Hill High School (2015-2019)</li>
                                     <li><span>Tertiary</span><br />Rosebank College (2020)</li>
                                     <li><span>Current</span><br />ALX Africa (2023-Present) </li>

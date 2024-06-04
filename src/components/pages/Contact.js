@@ -50,7 +50,7 @@ const Contact = () => {
               <a href="https://www.youtube.com/channel/UCuoFjuGWOcWVCUwBiatIrrg"><i className="fa-brands fa-square-youtube"></i></a>
             </div>
           </div>
-          <a href="images/my-cv.pdf" download className="btn btn2">Download CV</a>
+          <a href="./my-cv.pdf" download className="btn btn2">Download CV</a>
         </div>
       </div>
     </div>

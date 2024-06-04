@@ -1,10 +1,12 @@
 import React from 'react';
 import './Header.css';
+import './Responsive.css';
 
 const Header = () => {
   console.log("Header component rendered"); // Add this line for debugging
   return (
-    <div id="header" className="fixed-header">
+
+<div id="header" className="fixed-header">    
   <div className="container">
     <div className="header-text">
       <p style={{ color: "rgb(0, 183, 255)",fontWeight: "bold", textTransform: "uppercase", display: "inline", textShadow: "-2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff" }}>Journey Through Code: </p>
