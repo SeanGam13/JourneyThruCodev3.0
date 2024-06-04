@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/JourneyThruCodev3.0/static/css/main.e2c35511.chunk.css",
-    "main.js": "/JourneyThruCodev3.0/static/js/main.d0dec663.chunk.js",
-    "main.js.map": "/JourneyThruCodev3.0/static/js/main.d0dec663.chunk.js.map",
+    "main.css": "/JourneyThruCodev3.0/static/css/main.2c6c952e.chunk.css",
+    "main.js": "/JourneyThruCodev3.0/static/js/main.8caf8682.chunk.js",
+    "main.js.map": "/JourneyThruCodev3.0/static/js/main.8caf8682.chunk.js.map",
     "runtime~main.js": "/JourneyThruCodev3.0/static/js/runtime~main.d0a33544.js",
     "runtime~main.js.map": "/JourneyThruCodev3.0/static/js/runtime~main.d0a33544.js.map",
-    "static/js/2.93543064.chunk.js": "/JourneyThruCodev3.0/static/js/2.93543064.chunk.js",
-    "static/js/2.93543064.chunk.js.map": "/JourneyThruCodev3.0/static/js/2.93543064.chunk.js.map",
+    "static/js/2.147cfe95.chunk.js": "/JourneyThruCodev3.0/static/js/2.147cfe95.chunk.js",
+    "static/js/2.147cfe95.chunk.js.map": "/JourneyThruCodev3.0/static/js/2.147cfe95.chunk.js.map",
     "index.html": "/JourneyThruCodev3.0/index.html",
-    "precache-manifest.b1df0e80eadcdb5fa4e2d242be78682b.js": "/JourneyThruCodev3.0/precache-manifest.b1df0e80eadcdb5fa4e2d242be78682b.js",
+    "precache-manifest.ac97010b1ecbbf601836a60ae11b9010.js": "/JourneyThruCodev3.0/precache-manifest.ac97010b1ecbbf601836a60ae11b9010.js",
     "service-worker.js": "/JourneyThruCodev3.0/service-worker.js",
-    "static/css/main.e2c35511.chunk.css.map": "/JourneyThruCodev3.0/static/css/main.e2c35511.chunk.css.map"
+    "static/css/main.2c6c952e.chunk.css.map": "/JourneyThruCodev3.0/static/css/main.2c6c952e.chunk.css.map",
+    "static/media/Header.css": "/JourneyThruCodev3.0/static/media/background.780759aa.jpg",
+    "static/media/Responsive.css": "/JourneyThruCodev3.0/static/media/phone-background.efb13f72.jpg",
+    "static/media/user.jpg": "/JourneyThruCodev3.0/static/media/user.ed2deb87.jpg"
   }
 }
